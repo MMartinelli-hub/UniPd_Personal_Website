@@ -1,0 +1,29 @@
+/*!
+ * Custom Style
+ *
+ * Copyright 2015 Gianmaria Silvello
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ */
+
+.label-dpaper {
+  background-color: #9966CC;
+}
+
+.label-wpaper {
+  background-color: #DDA0DD;
+}
+
+.label-misc {
+  background-color: #666666;
+}
+
+.linkPub{
+	text-decoration: underline;
+	color: #4682B4;
+}
+
+p.abstract{
+	text-align: justify;
+}
