@@ -68,14 +68,14 @@
                             
                         </div>
                         <ul id="navigation">
-                            <li class="currentmenu">
+                            <li>
                               <a href="index.html">
                                 <div class="icon icon-user"></div>
                                 <div class="text">About Me</div>
                               </a>
                             </li>  
                             
-                            <li>
+                            <li class="currentmenu">
                               <a href="research.html">
                                 <div class="icon icon-book"></div>
                                 <div class="text">Research</div>
@@ -129,12 +129,20 @@
                             </li>
                             -->
 
-                            <li class="external">
-                              <a href="cv/CV-Silvello-2016.pdf">
-                                  <div class="icon icon-download-alt"></div>
-                                  <div class="text">Download CV (Italian)</div>
-                              </a>
-                            </li>
+                            <ul id="navigation">
+                                <!-- Other list items here -->
+                              
+                                <li class="external dropdown">
+                                  <a href="#">
+                                    <div class="icon icon-download-alt"></div>
+                                    <div class="text">Download CV</div>
+                                  </a>
+                                  <ul class="dropdown-content">
+                                    <li><a href="cv/CV-Marco-Martinelli-Italian.pdf">&#127470;&#127481; Italian</a></li>
+                                    <li><a href="cv/CV-Marco-Martinelli-English.pdf">&#127468;&#127463; English</a></li>
+                                  </ul>
+                                </li>
+                            </ul>          
                         </ul>
                     </div>        
                 </div>
@@ -163,11 +171,12 @@
 
                                     <p>My main research interests concern Biomedical Natural Language Processing (BioNLP), Knowledge Base Construction (KBC), and Federated Learning.</p>
 
-                                    <p>In the realm of BioNLP, a promising line of research I plan to pursue in the future regards <strong>Event Extraction</strong>. <br> A brief introduction is available at this presentation: <a href="slides/2024-EventExtractionIntroduction.pdf">Event Extraction</a></p>
+                                    <p>In the domain of BioNLP, a promising line of research I plan to pursue in the future regards <strong>Event Extraction</strong>. 
+                                        <br>A brief introduction is available at this presentation: <a href="slides/2024-EventExtractionIntroduction.pdf">Event Extraction Presentation</a></p>
 
                                     <p>I am part of the UNIPD research unit in the <a href="https://hereditary-project.eu/">HEREDITARY  H2020 EU project </a>(more information below).</p>     
 
-                                    <p> My main research contributions are within the fields of "Information Retrieval" and "Information Extraction".
+                                    <p> My main research contributions are within the fields of "<i>Information Retrieval</i>" and "<i>Information Extraction</i>".
                           <!--           <br />
                                        <p class="bodyText"><strong>Digital Libraries and Archives</strong></p>
 

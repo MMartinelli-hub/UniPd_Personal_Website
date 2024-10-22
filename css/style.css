@@ -1198,3 +1198,51 @@ ul.timeline .date {
 }
 
 }
+
+
+/*For picking Italian or English CV*/
+ul.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #303030;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	padding: 0; /* Remove padding for better alignment */
+	
+	width: 100%;  /* Match width with parent element */
+	left: 0; /* Aligns the dropdown box with the parent list item */ 
+	/*
+	min-width: 160px;
+	left: 50px;  Shift the dropdown to the right of the icon 
+	*/
+}
+
+  
+  ul.dropdown-content li {
+	display: block;
+	width: 100%;  /* Makes sure the dropdown items align perfectly */
+	
+	/*width: calc(100% - 50px);  Account for the left shift to maintain width consistency */
+  }
+  
+  ul.dropdown-content li a {
+	color: #363636;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	width: 100%; /* Ensure links also fill the width */
+  }
+  
+  ul.dropdown-content li a:hover {
+	background-color: #363636;
+  }
+  
+  li.dropdown {
+	position: relative;
+  }
+
+  /* Show the dropdown on hover */
+  li.dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
